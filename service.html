@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css" />
+    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> -->
+
+    <!-- Owl Carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+
+    <!-- local Jquerry -->
+    <script src="js/jquerry/jquery-3.6.0.min.js"></script>
+    <script src="js/flawer.js"></script>
+
+    <!-- aos animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Hello, world!</title>
+
+    <!-- Css  -->
+    <link rel="stylesheet" href="css/stylesheet.css" />
+  </head>
+  <body>
+    <header>
+      <div class="inner-width">
+        <a
+          href="flawer.html"
+          class="logo"
+          data-aos-once="true"
+          data-aos="zoom-in"
+          data-aos-duration="1400"
+          ><img src="assets/icons/logo.png" alt=""
+        /></a>
+        <span class="menu-toggle-btn">
+          <i class="fas fa-bars"></i>
+          <i class="fas fa-times"></i>
+        </span>
+        <nav
+          class="navigation-menu"
+          data-aos-once="true"
+          data-aos="fade-left"
+          data-aos-duration="1400"
+        >
+          <a href="flawer.html"><i class="fas fa-home home"></i> Home</a>
+          <a href="about.html"><i class="fas fa-align-left about"></i> About</a>
+          <a href="service.html" class="active-tab"
+            ><i class="fab fa-buffer works"></i> Services</a
+          >
+          <a href="blogs.html"><i class="fas fa-blog team"></i> Blogs</a>
+          <a href="contact.html"
+            ><i class="fas fa-headset contact"></i> Contact</a
+          >
+        </nav>
+      </div>
+    </header>
+    <div class="breadcrumb-option">
+      <div class="container">
+        <div class="row bread-row">
+          <div class="col-lg-12 text-center">
+            <div class="breadcrumb-text mt-3 mb-3">
+              <h2>Our Services</h2>
+              <div class="breadcrumb-links">
+                <a class="home-link" href="flawer.html">Home</a>
+                <span>Services</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="service-sidebar-tab">
+            <ul class="nav nav-tabs">
+              <li
+                class="nav-item"
+                data-aos-once="true"
+                data-aos="fade-right"
+                data-aos-duration="1400"
+              >
+                <a class="nav-link active" href="#">
+                  <div class="service-item">
+                    <div class="service-item-icon">
+                      <img
+                        class="img-fluid service-img"
+                        src="assets/img/services-1.png"
+                        alt=""
+                      />
+                    </div>
+                    <h4>Custom Orders</h4>
+                    <p>
+                      Flowers helps you perfectly express how important your
+                      significant
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li
+                class="nav-item"
+                data-aos-once="true"
+                data-aos="fade-right"
+                data-aos-duration="1400"
+              >
+                <a class="nav-link active" href="#">
+                  <div class="service-item">
+                    <div class="service-item-icon">
+                      <img
+                        class="img-fluid service-img"
+                        src="assets/img/services-1.png"
+                        alt=""
+                      />
+                    </div>
+                    <h4>Custom Orders</h4>
+                    <p>
+                      Flowers helps you perfectly express how important your
+                      significant
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li
+                class="nav-item"
+                data-aos-once="true"
+                data-aos="fade-right"
+                data-aos-duration="1400"
+              >
+                <a class="nav-link active" href="#">
+                  <div class="service-item">
+                    <div class="service-item-icon">
+                      <img
+                        class="img-fluid service-img"
+                        src="assets/img/services-1.png"
+                        alt=""
+                      />
+                    </div>
+                    <h4>Custom Orders</h4>
+                    <p>
+                      Flowers helps you perfectly express how important your
+                      significant
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div
+            class="service-video mt-5"
+            data-aos-once="true"
+            data-aos="fade-left"
+            data-aos-duration="1400"
+          >
+            <!-- Button trigger modal -->
+            <i
+              class="fas fa-play"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+            </i>
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="background-color: unset">
+                  <div class="modal-body">
+                    <iframe
+                      width="800"
+                      height="415"
+                      src="https://www.youtube.com/embed/J3b9UnDK1fQ"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <span style="color: hotpink; font-weight: bold"
+            >From $60 - $300
+          </span>
+          <div class="row">
+            <div class="col-lg-12">
+              <p class="font-style">
+                For Heather Henson, of Boreal Blooms in Cold Lake, Alberta,
+                Canada, growing flowers that can be dried and incorporated into
+                late fall and winter floral arrangements has been a
+                game-changer. During her growing season, this farmer-florist
+                relies on a vivid palette of annuals, perennials and ornamental
+                grasses to supply her studio.
+              </p>
+            </div>
+            <div class="col-lg-6 mt-5">
+              <div class="service-detail-item-icon">
+                <img class="star img-fluid" src="assets/img/icon.png" alt="" />
+              </div>
+              <div class="service-detail-text">
+                <p class="star-text">
+                  Free initial consulting. For retail and office tenants who are
+                  interested in a weekly delivery program floral design plan
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 mt-5">
+              <div class="service-detail-item-icon">
+                <img class="star img-fluid" src="assets/img/icon.png" alt="" />
+              </div>
+              <div class="service-detail-text">
+                <p class="star-text">
+                  Free initial consulting. For retail and office tenants who are
+                  interested in a weekly delivery program floral design plan
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 mt-5">
+              <div class="service-detail-item-icon">
+                <img class="star img-fluid" src="assets/img/icon.png" alt="" />
+              </div>
+              <div class="service-detail-text">
+                <p class="star-text">
+                  Free initial consulting. For retail and office tenants who are
+                  interested in a weekly delivery program floral design plan
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 mt-5">
+              <div class="service-detail-item-icon">
+                <img class="star img-fluid" src="assets/img/icon.png" alt="" />
+              </div>
+              <div class="service-detail-text">
+                <p class="star-text">
+                  Free initial consulting. For retail and office tenants who are
+                  interested in a weekly delivery program floral design plan
+                </p>
+              </div>
+            </div>
+            <!-- form    -->
+            <div class="cont">
+              <div class="form sign-in">
+                <h2>Sign In</h2>
+                <label>
+                  <span>Email Address</span>
+                  <input type="email" name="email" />
+                </label>
+                <label>
+                  <span>Password</span>
+                  <input type="password" name="password" />
+                </label>
+                <button class="submit" type="button">Sign In</button>
+                <p class="forgot-pass">Forgot Password ?</p>
+
+                <div class="social-media">
+                  <ul>
+                    <li>
+                      <img class="social-i" src="assets/img/facebook.png" />
+                    </li>
+                    <li>
+                      <img class="social-i" src="assets/img/twitter.png" />
+                    </li>
+                    <li>
+                      <img class="social-i" src="assets/img/linkedin.png" />
+                    </li>
+                    <li>
+                      <img class="social-i" src="assets/img/instagram.png" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="sub-cont">
+                <div class="img">
+                  <div class="img-text m-up">
+                    <h2>New here?</h2>
+                    <p>
+                      Sign up and discover great amount of new opportunities!
+                    </p>
+                  </div>
+                  <div class="img-text m-in">
+                    <h2>One of us?</h2>
+                    <p>
+                      If you already has an account, just sign in. We've missed
+                      you!
+                    </p>
+                  </div>
+                  <div class="img-btn">
+                    <span class="m-up">Sign Up</span>
+                    <span class="m-in">Sign In</span>
+                  </div>
+                </div>
+                <div class="form sign-up">
+                  <h2>Sign Up</h2>
+                  <label>
+                    <span>Name</span>
+                    <input type="text" />
+                  </label>
+                  <label>
+                    <span>Email</span>
+                    <input type="email" />
+                  </label>
+                  <label>
+                    <span>Password</span>
+                    <input type="password" />
+                  </label>
+                  <label>
+                    <span>Confirm Password</span>
+                    <input type="password" />
+                  </label>
+                  <button type="button" class="submit">Sign Up Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-3">
+          <a href="#" class="logo"
+            ><img src="assets/icons/logo.png" alt=""
+          /></a>
+        </div>
+        <div class="col-lg-6 mt-3">
+          <p>
+            The floristry business has a significant market in the corporate and
+            social event world, as flowers
+          </p>
+        </div>
+        <div class="col-lg-3 mt-3 d-flex justify-content-end">
+          <a href="#">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-snapchat-ghost"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-option mt-5">
+      <div class="row">
+        <div class="col-lg-4 mt-5 company-sec">
+          <div class="row">
+            <div class="col-lg-6">
+              <h4 style="margin-bottom: 18px">Company</h4>
+              <ul style="list-style: none">
+                <li class="foot-li">
+                  <a class="foot-link" href="about.html">About Us</a>
+                </li>
+                <li class="foot-li">
+                  <a class="foot-link" href="service.html">Services</a>
+                </li>
+                <li class="foot-li">
+                  <a class="foot-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <h4 style="margin-bottom: 18px">Account</h4>
+              <ul style="list-style: none">
+                <li class="foot-li">
+                  <a class="foot-link" href="#">My Cart</a>
+                </li>
+                <li class="foot-li">
+                  <a class="foot-link" href="#">Wisslist</a>
+                </li>
+                <li class="foot-li">
+                  <a class="foot-link" href="#">Login/Register</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-5 company-sec">
+          <h4 class="text-center">Newsletter</h4>
+          <p class="foot-li text-center">
+            Subcribe to our newsletter to get more free tips. No Spam, Promise.
+          </p>
+          <div class="tex">
+            <form class="d-flex">
+              <input
+                class="email"
+                type="text"
+                name="search"
+                placeholder="Search.."
+              />
+            </form>
+            <a class="sub-btn" href="#">Subscribe</a>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-5">
+          <h4 class="text-center">Get in touch</h4>
+          <p class="text-center foot-li">
+            69 North Cleveland Street, Memphis,USA. (123) 8111 9210 - (012) 1111
+            6868 Florisr@supportthem.com
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var bol = true;
+      $(".menu-toggle-btn").click(function () {
+        // if (bol == true) {
+        //   $(".menu-toggle-btn svg").removeClass("fa-bars");
+        //   $(".menu-toggle-btn svg").addClass("fa-times");
+        //   bol = false;
+        // } else {
+        //   $(".menu-toggle-btn svg").removeClass("fa-times");
+        //   $(".menu-toggle-btn svg").addClass("fa-bars");
+        //   bol = true;
+        // }
+        $(this).toggleClass("active");
+        $(".navigation-menu").toggleClass("active");
+      });
+    </script>
+
+    <script>
+      document.querySelector(".img-btn").addEventListener("click", function () {
+        document.querySelector(".cont").classList.toggle("s-signup");
+      });
+    </script>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+    <script src="fontawesome-free-5.15.3-web/js/all.min.js"></script>
+    <!-- aos data -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+      -->
+  </body>
+</html>
